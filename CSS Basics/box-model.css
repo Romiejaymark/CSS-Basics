@@ -1,0 +1,37 @@
+.box1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20;
+    padding-right: 20;
+}
+.box2{
+    padding: 10px 20px 30px 40px;
+}
+.box3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.box4{
+    margin: 40px 20px 30px 10px
+}
+.mix-borders{
+    background-color: #457b9d;
+    width: 400px;
+    height: 200px;
+    color: white;
+    border-style: solid dashed dotted double;
+    border-width: 10px;
+    border-color: black;
+}
+.circle-container{
+    background-color: #457b9d;
+    width: 400px;
+    height: 200px;
+    color: white;
+    border-style: solid dashed dotted double;
+    border-width: 10px;
+    border-radius: 50%;
+    border-color: black;
+}

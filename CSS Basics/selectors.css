@@ -1,0 +1,63 @@
+/* Element selector */
+span{
+    background-color: aqua;
+    color: antiquewhite;
+    font-size: 24px;
+}
+/* Class selector */
+.class-name{
+    color:blue
+}
+
+/* ID Selector */
+#id-name{
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+/* Universal Selector */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Attribute Selector */
+/* Targeting element with the herf attribute */
+[href]{
+    color:red;
+}
+
+a[href]{
+    color:blueviolet
+}
+
+a[href="www.example.com"]{
+    color:pink;
+}
+/* grouping selector */
+h1,h2, .parag{
+    color:rgb(227,25,180)
+}
+/* decendant selector */
+.ancestor p{
+    font-style: italic;
+    color:orange;
+}
+/* Psuedo-calsses */
+button:hover{
+    background-color: olivedrab;
+}
+
+.pseudo:visited {
+    background-color: orangered;
+}
+
+/* Psuedo-element */
+#pseudo-element::after {
+    content: " Placed after h3 ";
+}
+
+#pseudo-element::before {
+    content: " Placed before h3";
+}
+#pseudo-element::first-letter{
+    color:green;
+}
